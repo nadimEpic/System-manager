@@ -1,0 +1,101 @@
+ 
+
+
+
+
+
+  body, html, .App {
+    height: 100%;
+    margin: 0;
+    font-family: Arial, sans-serif;
+  }
+  
+  .App-header {
+    position: relative;
+    height: 100vh;
+    color: white;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.6);
+    overflow: hidden;
+  }
+  
+  .blur-background {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: url('https://i.pinimg.com/564x/7e/44/de/7e44de534367d6ecffc0848be5b273e8.jpg') no-repeat center center;
+    background-size: cover;
+    filter: blur(10px);
+    z-index: -1;
+  }
+  
+  .App-header .container {
+    position: relative;
+    z-index: 1;
+  }
+  
+  .hh {
+    color: hsl(0, 0%, 28%);
+    font-size: 50px;
+    font-weight: bold;
+    font-family: monospace;
+    letter-spacing: 7px;
+    cursor: pointer;
+  }
+  
+  .hh span {
+    transition: 0.5s ease-out;
+  }
+  .hh:hover span:nth-child(1) {
+    margin-right: 5px;
+  }
+  .hh:hover span:nth-child(1):after {
+    content: "'";
+  }
+  .hh:hover span:nth-child(2) {
+    margin-left: 30px;
+  }
+  .hh:hover span {
+    color: #fff;
+    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 40px #fff;
+  }
+  
+  .main-text h1 {
+    font-size: 4rem;
+    font-weight: bold;
+    letter-spacing: 5px;
+    margin: 0;
+  }
+  
+  
+  .pagination {
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+    font-size: 1.2rem;
+    color: white;
+  }
+  
+
+
+
+  .hh {
+   
+    background-size: 40%;
+    background-position: 50% 50%;
+    font-family: "Red Hat Display", sans-serif!important;
+    -webkit-background-clip: text;
+    color: hsla(0, 0%, 0%, 0.08);
+    animation: zoomout 10s ease 500ms forwards;
+    font-size: 10vw!important;
+  }
+  
+  @keyframes zoomout {
+    from {
+      background-size: 40%;
+    }
+    to {
+      background-size: 10%;
+    }
+  }

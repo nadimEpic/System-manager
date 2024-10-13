@@ -1,0 +1,125 @@
+.divider:after,
+.divider:before {
+  content: "";
+  flex: 1;
+  height: 1px;
+  background: #eee;
+}
+
+/* style/todo.css */
+section.p-5.vh-100 {
+  padding: 1rem !important;
+  height: auto !important;
+  background-color: #3da2c3;
+}
+
+.MDBContainer.py-5.h-100 {
+  padding-top: 1rem !important;
+  padding-bottom: 1rem !important;
+  height: auto !important;
+}
+
+.MDBCard {
+  font-size: 0.9rem; /* Reduce font size */
+}
+
+.MDBCardBody.p-4 {
+  padding: 1rem !important;
+}
+
+.MDBCardBody h5 {
+  font-size: 1.25rem !important; /* Reduce heading size */
+}
+
+.MDBBadge.mx-2 {
+  font-size: 0.75rem !important; /* Reduce badge size */
+}
+
+.MDBListGroupItem.border-0.d-flex.align-items-center.ps-0 {
+  padding-left: 0 !important;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+}
+
+.MDBCheckbox.me-3 {
+  margin-right: 0.5rem !important;
+}
+
+.divider.d-flex.align-items-center.my-4 {
+  margin-top: 1rem !important;
+  margin-bottom: 1rem !important;
+}
+
+.MDBListGroup.horizontal.rounded-0.justify-content-center.pb-2 {
+  padding-bottom: 0.5rem !important;
+}
+
+.MDBListGroupItem.border-0.d-flex.align-items-center.p-0 img {
+  width: 35px !important; /* Reduce avatar size */
+  margin-right: -0.5rem !important;
+}
+
+.text-muted.pb-2 {
+  font-size: 0.75rem; /* Reduce date font size */
+  padding-bottom: 0.5rem !important;
+}
+
+
+.timeline-with-icons {
+  border-left: 1px solid hsl(0, 0%, 90%);
+  position: relative;
+  list-style: none;
+  padding-left: 40px; /* Adjusted to make space for the icons */
+}
+
+.timeline-with-icons .timeline-item {
+  position: relative;
+  margin-bottom: 20px; /* Space between timeline items */
+}
+
+.timeline-with-icons .timeline-item:after {
+  content: "";
+  position: absolute;
+  left: -1px;
+  top: 0;
+  bottom: 0;
+  width: 1px;
+  background: hsl(0, 0%, 90%);
+}
+
+.timeline-with-icons .timeline-icon {
+  position: absolute;
+  left: -40px; /* Adjust left position if needed */
+  background-color: hsl(217, 88.2%, 90%);
+  color: hsl(217, 88.8%, 35.1%);
+  border-radius: 50%;
+  height: 24px; /* Smaller icon size */
+  width: 24px;  /* Smaller icon size */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 12px; /* Smaller font size */
+}
+/* Custom CSS for smaller Todo List component */
+
+/* Reduce padding and margins */
+.section-padding {
+  padding: 3rem 1rem; /* Adjust as needed */
+}
+
+.card-body-padding {
+  padding: 2rem; /* Adjust as needed */
+}
+
+.list-group-item-padding {
+  padding: 0.5rem 1rem; /* Adjust as needed */
+}
+
+/* Reduce font sizes */
+.todo-list-title {
+  font-size: 1.2rem; /* Adjust as needed */
+}
+
+.todo-list-item {
+  font-size: 0.9rem; /* Adjust as needed */
+}

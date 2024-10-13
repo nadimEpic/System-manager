@@ -1,0 +1,5 @@
+.employee_image {
+    max-width: 50px; /* Set a maximum width for the image */
+    max-height: 50px; /* Set a maximum height for the image */
+    border-radius: 5px; /* Optional: Add some border radius for better appearance */
+  }
